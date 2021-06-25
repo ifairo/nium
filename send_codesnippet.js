@@ -69,7 +69,7 @@ const response = await instance.post(
         } 
     }
 );
-console.log(response.data);
+console.log(`payment_id: ${response.data.payment_id}\n`);
 
 
 
@@ -79,13 +79,4 @@ After line 9 - show:
 Submitting payment instruction
 
 After line 72 - show:
-{
-    reference_number: '2wpt34aqkqk',
-    payment_id: 'UATPY103151608',
-    status: 'IN_PROCESS',
-    sub_status: '',
-    status_description: 'Payment in internal process',
-    created_at: '2021-06-25T10:41:21.937Z',
-    updated_at: '2021-06-25T10:41:21.937Z',
-    hold_fx_expires_on: '2021-06-25T11:11:20.031Z'
-  }  
+payment_id: UATPY103151613
