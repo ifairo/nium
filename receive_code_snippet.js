@@ -71,8 +71,8 @@ const receiveAPIs = async function () {
 }
 
 //What to show in the 'console' as the user types the above instruction in the program editor
-After line 58 - show:
+After line 65 - show:
 Payer Created Successfully-----> {"payerId":"57fa0597-8fa1-4921-bbdc-cccdc6c79b13"}
 
-After line 60 - show:
+After line 67 - show:
 Payment Request Created Successfully {"paymentRequestId":"bb70f699-618e-4c9f-812e-9c83d31524dc","virtualAccount":"4502222253","bankAccountName":"Skyline Pvt. Ltd","bankName":"Bank of Lithuania","bankAddress":"Gedimino pr. 6 ","bankRoutingDetails":{"routing_code_1":"BIC","routing_value_1":"LIABLT20001"}}
