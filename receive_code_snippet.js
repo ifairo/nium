@@ -1,3 +1,10 @@
+const clientObject = {
+  clientId: 'client_id_for_your_program',
+  api_key: 'your_api_key',
+  api_secret: 'your_api_secret',
+  serverUrl: 'right_end_point_url',
+}
+
 const apiConfig = {
   payerObject(data) {
     return {
