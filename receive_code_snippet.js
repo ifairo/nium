@@ -62,9 +62,9 @@ const apiCall = async function (obj, logic) {
 const receiveAPIs = async function () {
   try {
     const payer = await apiCall(apiConfig.payerObject(requestObject.payerReq), requestJson)
-    console.log(chalk.yellow('Payer Created Successfully----->', payer))
+    console.log('Payer Created Successfully----->', payer)
     const paymentRequest = await apiCall(apiConfig.paymentRequestObject(requestObject.paymentRequest), requestForm)
-    console.log(chalk.blue('Payment Request Created Successfully', paymentRequest))
+    console.log('Payment Request Created Successfully', paymentRequest)
   } catch (error) {
     console.log(`found error on api calling -----> ${error}`)
   }
