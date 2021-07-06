@@ -12,7 +12,7 @@ async function addCustomer() {
             preferredName: "John",
             dateOfBirth: "1992-12-18",
             nationality: "SG",
-            email: `john.smith@someco.com`,
+            email: "john.smith@someco.com",
             countryCode: "SG",
             mobile: "81334300",
             deliveryAddress1: "#20-05, Hong Leong Building",
